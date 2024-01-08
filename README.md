@@ -1,21 +1,12 @@
->[!NOTE]
->Es codigo bastante mejoranble y unicamente contiene una tabla
-# Animales Con Persistencia (JPA)
+# Animales con Persistencia (JPA)
 
-En este ejercicio se realiza un proyecto de persisyencía en Java Spring, utilizando como ejemplo un elemento de animales con la siguiente estructura:
-<table>
-<tr><th>Animal<th></tr>
-  <tr>
-<td>
-  *INT* ID
-  </td>
-  <td>
-    *String* Nombre
-  </td>
-  <td>
-    *INT* Vida Media
-    </td>
-    <td>
-  *Bolean* Extinto
-</td>
-</tr>
+Este proyecto implementa la persistencia en Java Spring para un ejemplo de entidad de animales. Aunque el código actual es mejorable, contiene una tabla con la siguiente estructura:
+
+## Estructura de la Entidad Animal
+
+| Campo       | Tipo     | Descripción                           |
+|-------------|----------|---------------------------------------|
+| ID          | INT      | Identificador único del animal.       |
+| Nombre      | String   | Nombre del animal.                    |
+| Vida Media  | INT      | Duración media de vida del animal.    |
+| Extinto     | Boolean  | Indica si el animal está extinto.     |
